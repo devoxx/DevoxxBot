@@ -16,4 +16,4 @@ You can ask questions like:
 
 * What is Devoxx?
 * When is Devoxx France?
-* Who runs Devoxx?
+* Who runs Devoxx Belgium?
