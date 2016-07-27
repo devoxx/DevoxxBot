@@ -37,7 +37,7 @@ var conversation = watson.conversation({
 
 // Endpoint to be call from the client side
 app.post('/api/message', function(req, res) {
-  var workspace = '1a99a8ca-5aac-4dfd-a32b-a6fea90d76a5';
+  var workspace = 'fc65ceb0-90b0-4c12-9c4f-baf4e3de6337';
   var payload = {
     workspace_id: workspace,
     context: {}
