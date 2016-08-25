@@ -1,13 +1,14 @@
 ---
 declared-services:
-  conversation-experimental:
+  conversation:
     label: conversation
     plan: experimental
 applications:
 - services:
-  - DevoxxConversation 
+  - DevoxxConversation-2
   command: node server.js
   path: .
-  name: DevoxxConversationBot
+  name: JimConversationBot
   instances: 1
   memory: 512MB
+

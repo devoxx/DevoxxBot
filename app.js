@@ -29,15 +29,15 @@ app.use(bodyParser.json());
 // Create the service wrapper
 var conversation = watson.conversation({
   url: 'https://gateway.watsonplatform.net/conversation-experimental/api',
-  username: '371ffd54-0cab-49bd-b555-7b9320234ada',
-  password: 'Y8gUTfOHTB2b',
+  username: '76df0216-0b65-4b2a-a16a-f5ee57f455be',
+  password: '3EcINlm1GczO',
   version_date: '2016-05-19',
   version: 'v1-experimental'
 });
 
 // Endpoint to be call from the client side
 app.post('/api/message', function(req, res) {
-  var workspace = 'fc65ceb0-90b0-4c12-9c4f-baf4e3de6337';
+  var workspace = 'e1faa444-789c-40f6-bc6a-34fd765450a9';
   var payload = {
     workspace_id: workspace,
     context: {}
